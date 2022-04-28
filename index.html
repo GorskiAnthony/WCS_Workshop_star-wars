@@ -1,0 +1,78 @@
+<!-- DOCTYPE permet d'informer la nature de notre document
+	doc : https://www.w3schools.com/tags/tag_doctype.asp
+ -->
+<!DOCTYPE html>
+<!-- ici, nous avons notre 1er balise "html" qui représente notre site internet
+	doc : https://www.w3schools.com/tags/tag_html.asp
+ -->
+<html lang="en">
+	<!-- la balise head est une des balises obligatoires, car elle contient une autre balise obligatoire aussi
+la balise "title". Elle représente les balises meta de notre site web.
+	doc : https://www.w3schools.com/tags/tag_head.asp
+ -->
+	<head>
+		<!-- doc: https://www.w3schools.com/tags/tag_meta.asp -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- doc: https://www.w3schools.com/tags/tag_link.asp -->
+		<link rel="stylesheet" href="styles.css" />
+
+		<!-- doc: https://www.w3schools.com/tags/tag_title.asp -->
+		<title>May the code be with you</title>
+	</head>
+	<!-- La balise body représente notre site web. c'est à l'intérieur que nous allons 
+insérer l'ensemble de notre site.
+	doc : https://www.w3schools.com/tags/tag_body.asp
+ -->
+	<body>
+		<!-- doc : https://www.w3schools.com/tags/tag_div.asp -->
+		<section class="intro">
+			A long time ago, in a galaxy far,<br />
+			far away....
+		</section>
+
+		<!-- I did not find the text of the original generic. So here is a translation into my native language. -->
+		<audio preload="auto">
+			<source
+				src="https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.ogg"
+				type="audio/ogg"
+			/>
+			<source
+				src="https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.mp3"
+				type="audio/mpeg"
+			/>
+		</audio>
+		<!-- Change the text to your liking -->
+		<div id="board">
+			<div id="content">
+				<p id="title">Episode I</p>
+				<p id="subtitle">THE CODER'S MENACE</p>
+				<br />
+				<!-- And make it cheesy ! -->
+				<p>
+					La Wild Code School est une école européenne qui propose des
+					programmes de formation tout au long de la vie aux métiers
+					Tech à travers une vingtaine de campus, à distance ou au
+					sein d’entreprises..
+				</p>
+				<p>
+					Notre pédagogie hybride, basée sur la pratique et la
+					réalisation de projets, associe notre plateforme éducative à
+					un réseau de plus de 50 formateurs dédiés.
+				</p>
+				<p>
+					Nous sommes convaincus qu’apprendre est en passe de devenir
+					la principale occupation humaine. Nous soutenons cette
+					vision en proposant à nos élèves un environnement
+					d'apprentissage accueillant et bienveillant.
+				</p>
+				<p>
+					Notre communauté internationale de plus de 5 000 élèves et
+					alumni se rassemble autour des trois valeurs qui nous sont
+					chères : passion, innovation et humanité.
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
